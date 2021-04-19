@@ -2,7 +2,7 @@
   "name": "graphql-auth",
   "license": "MIT",
   "scripts": {
-    "start": "node server/server",
+    "start": "ts-node-dev src/server",
     "clean": "rm -rf dist",
     "build": "npm -s run clean && npm -s run generate",
     "generate": "npm -s run generate:prisma && npm -s run generate:nexus",
