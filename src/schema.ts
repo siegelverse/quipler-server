@@ -24,4 +24,5 @@ export const schema = makeSchema({
     ],
     contextType: 'Context.Context',
   },
+  shouldExitAfterGenerateArtifacts: process.argv.includes('--nexusTypegen'),
 })
